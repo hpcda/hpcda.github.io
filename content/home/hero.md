@@ -10,7 +10,7 @@ design:
     gradient_end: '#456'
     text_color_light: true
 cta:
-  url: /hpcda.pdf
+  url: /hpcda-program.pdf
   label: Program
   icon_pack: fas
   icon: download
