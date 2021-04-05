@@ -1,0 +1,34 @@
+name: site-deploy
+on:
+  push:
+    branches: [ main ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          ref: data
+          path: public
+      - name: Install deps
+        run: |
+          wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_extended_0.81.0_Linux-64bit.deb
+          sudo apt install golang-go
+          sudo dpkg -i hugo_extended_0.81.0_Linux-64bit.deb
+          rm hugo_extended_0.81.0_Linux-64bit.deb
+      - name: Build site
+        run: |
+          rm -rf public/*
+          hugo
+          ls -R .
+      - name: Deploy site
+        run: |
+          cd public
+          git config user.email "github-commit-hook@example.com"
+          git config user.name "Github Commit Hook"
+          git add -A .
+          git commit -a -m "Update to match ${GITHUB_SHA}"
+          git push -f
