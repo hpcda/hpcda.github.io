@@ -18,7 +18,7 @@ design:
 
 * [Dr. Virginie Grandgirard](author/virginie-grandgirard)
 * [Dr. Sai Narasimhamurthy](author/sai-narasimhamurthy)
-* [Dr. Dirk Pleiter](author/dirk-pleiter)
+* [Prof. Dr. Dirk Pleiter](author/dirk-pleiter)
 * Amal Gueroudji
 
 </td><td style="width:33%;margin:0;border:0;padding:0">
