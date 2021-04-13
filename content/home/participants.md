@@ -24,7 +24,7 @@ design:
 </td><td style="width:33%;margin:0;border:0;padding:0">
 
 * [Dr. Charles Gueunet](author/charles-gueunet)
-* [Dr. Wouter Klijn](author/wouter-klijn)
+* [Wouter Klijn](author/wouter-klijn)
 * [Dr. Tiago Quintino](author/tiago-quintino)
 * [Dr. Bruno Raffin](author/bruno-raffin)
 * [Dr. Alejandro Ribes](author/alejandro-ribes)
