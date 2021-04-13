@@ -3,6 +3,7 @@ widget: hero
 headless: true
 weight: 10
 title: HP-C/DA 2021
+subtitle: 
 hero_media: datacenter.jpg
 design:
   background:
@@ -10,18 +11,17 @@ design:
     gradient_end: '#456'
     text_color_light: true
 cta:
-  url: /hpcda-program.pdf
+  url: '#program'
   label: Program
   icon_pack: fas
-  icon: download
-#cta_alt:
-#  url: docs/
-#  label: View Documentation
-#cta_note:
-#  label: >-
-#    <span class="js-github-release" data-repo="wowchemy/wowchemy-hugo-modules">
-#      Show your product version here:<!-- Automatically filled based on data-repo value -->
-#    </span>
+  icon: calendar
+cta_alt:
+  url: 'https://www.isc-hpc.com/registration-2021.html'
+  label: 'Register'
+cta_note:
+  label: |
+     Oganized by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin).
 ---
 
-Latest advances and challenges for the co-execution of HPC & HPDA workloads on supercomputers.
+2 June 2021, 2PM <br>
+In conjunction with  [ISC High Performance 2021](https://www.isc-hpc.com/).
