@@ -6,6 +6,8 @@ design:
   columns: '1'
 ---
 
+# Latest advances and challenges for the co-execution of HPC \& HPDA workloads on supercomputers
+
 Exascale computing offers the promise of supporting disruptive numerical experiments needed to address the pressing scientific, industrial and societal challenges of the 21st century, such as clean energy, health and climate change.
 ExaFlop/s supercomputers will provide the compute capabilities to support simulations of yet unseen precision, generating an unprecedented quantity and quality of data.
 Only the latest advances in automated data analytics based on machine-learning or statistical analysis will make it possible to get the most knowledge out of the data generated at this scale.

@@ -20,8 +20,9 @@ cta_alt:
   label: 'Register'
 cta_note:
   label: |
-     Oganized by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin).
+    Oganized by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin).
 ---
+Workshop on the In Situ Co-Execution of <br> **H**igh-**P**erformance **C**omputing & **D**ata **A**nalysis
 
 2 June 2021, 2PM <br>
 In conjunction with  [ISC High Performance 2021](https://www.isc-hpc.com/).
