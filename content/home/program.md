@@ -3,50 +3,50 @@ widget: experience
 headless: true
 weight: 50
 title: Program overview
-date_format: ' '
+date_format: '3:04 PM'
 experience:
-  - title: '2PM: Workshop introduction'
-    company: 'Julien Bigot & Bruno Raffin'
-    company_url: ''
-    location: '2PM – 2:05PM'
-    date_start: '2021-06-02'
-    date_end: '2021-06-02'
-    description: 
-  - title: '2:05PM: :computer: First Session'
+  - title: 'Workshop introduction'
     company: ''
     company_url: ''
-    location: '2:05PM – 3:45PM'
-    date_start: '2021-06-02'
-    date_end: '2021-06-02'
+    location: ''
+    date_start: '2021-06-06T14:00:00'
+    date_end: '2021-06-06T14:05:00'
+    description: by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin)
+  - title: ':computer: First Session :computer:'
+    company: ''
+    company_url: ''
+    location: ''
+    date_start: '2021-06-05T14:05:00'
+    date_end: '2021-06-05T15:45:00'
     description: |
-      * 2:05PM: TBA
-      * 2:25PM: TBA
-      * 2:45PM: TBA
-      * 3:05PM: TBA
-      * 3:25PM: TBA
-  - title: '3:45PM: :coffee: Coffee break'
+      * 2:05PM: Talk TBA by TBA.
+      * 2:25PM: Talk TBA by TBA.
+      * 2:45PM: Talk TBA by TBA.
+      * 3:05PM: Talk TBA by TBA.
+      * 3:25PM: Talk TBA by TBA.
+  - title: ':coffee: Coffee break :coffee:'
     company: ''
     company_url: ''
-    location: '3:45PM – 3:55PM'
-    date_start: '2021-06-02'
-    date_end: '2021-06-02'
+    location: ''
+    date_start: '2021-06-04T15:45:00'
+    date_end: '2021-06-04T15:55:00'
     description: 
-  - title: '3:55PM: :computer: Second Session'
+  - title: ':computer: Second Session :computer:'
     company: ''
     company_url: ''
-    location: '3:55PM – 5:15PM'
-    date_start: '2021-06-02'
-    date_end: '2021-06-02'
+    location: ''
+    date_start: '2021-06-03T15:55:00'
+    date_end: '2021-06-03T17:15:00'
     description:  |
-      * 3:55PM: TBA
-      * 4:15PM: TBA
-      * 4:35PM: TBA
-      * 4:55PM: TBA
-  - title: '5:15PM: :raising_hand: Plenary discussion'
+      * 3:55PM: Talk TBA by TBA.
+      * 4:15PM: Talk TBA by TBA.
+      * 4:35PM: Talk TBA by TBA.
+      * 4:55PM: Talk TBA by TBA.
+  - title: ':raising_hand: Plenary discussion :raising_hand:' 
     company: ''
     company_url: ''
-    location: '5:15PM – 6PM'
-    date_start: '2021-06-02'
-    date_end: '2021-06-02'
-    description: 
+    location: ''
+    date_start: '2021-06-02T17:15:00'
+    date_end: '2021-06-02T18:00:00'
+    description: Moderated by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin)
 ---
