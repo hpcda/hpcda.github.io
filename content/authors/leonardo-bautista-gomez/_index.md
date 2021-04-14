@@ -1,12 +1,12 @@
 ---
-authors: [ leonardo-bautista ]
-name: Leonardo Bautista-Gomez
-title: Leonardo Bautista-Gomez
+authors: [ leonardo-bautista-gomez ]
+name: Leonardo Bautista Gomez
+title: Leonardo Bautista Gomez
 role: Participant
 user_groups: [ Participant ]
 ---
 
-Dr. Leonardo Bautista-Gomez is a Senior Research Scientist at the Barcelona Supercomputing Center where he work on resilience and scalability for high-performance computing and machine learning.
+Dr. Leonardo Bautista Gomez is a Senior Research Scientist at the Barcelona Supercomputing Center where he work on resilience and scalability for high-performance computing and machine learning.
 He was awarded the 2016 IEEE TCSC Award for Excellence in Scalable Computing (Early Career Researcher).
 Before moving to BSC he was a Postdoctoral researcher for 3 years at the Argonne National Laboratory, where he investigated data corruption detection techniques and error propagation. 
 Prior to that, he did his PhD. in resilience for supercomputers at the Tokyo Institute of Technology.
