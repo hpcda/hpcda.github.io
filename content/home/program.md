@@ -8,14 +8,14 @@ experience:
   - title: 'Workshop introduction'
     company: ''
     company_url: ''
-    location: ''
+    location: 'by Julien Bigot & Bruno Raffin'
     date_start: '2021-06-06T14:00:00'
     date_end: '2021-06-06T14:05:00'
-    description: by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin)
+    description: 
   - title: ':computer: First Session :computer:'
     company: ''
     company_url: ''
-    location: ''
+    location: 'Chair: Bruno Raffin'
     date_start: '2021-06-05T14:05:00'
     date_end: '2021-06-05T15:45:00'
     description: |
@@ -34,7 +34,7 @@ experience:
   - title: ':computer: Second Session :computer:'
     company: ''
     company_url: ''
-    location: ''
+    location: 'Chair: Julien Bigot'
     date_start: '2021-06-03T15:55:00'
     date_end: '2021-06-03T17:15:00'
     description:  |
@@ -45,8 +45,8 @@ experience:
   - title: ':raising_hand: Plenary discussion :raising_hand:' 
     company: ''
     company_url: ''
-    location: ''
+    location: 'Moderated by Julien Bigot & Bruno Raffin'
     date_start: '2021-06-02T17:15:00'
     date_end: '2021-06-02T18:00:00'
-    description: Moderated by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin)
+    description: 
 ---
