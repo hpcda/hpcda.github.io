@@ -7,7 +7,7 @@ role: Organizer
 user_groups: [ Organizer ]
 organizations:
 - name: CEA
-  url: http://www.cea.fr/
+  url: https://www.cea.fr/
 - name: Maison de la Simulation
   url: http://www.maisondelasimulation.fr/
 social:
