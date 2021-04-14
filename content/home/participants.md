@@ -10,7 +10,7 @@ design:
 <table style="overflow:hidden;width:100%"><tr style="overflow:hidden;width:100%">
 <td style="background-color:inherit;width:33%;margin:0;border:0;padding:0">
 
-* [Dr. Leonardo Bautista-Gomez](author/leonardo-bautista-gomez)
+* [Dr. Leonardo Bautista Gomez](author/leonardo-bautista-gomez)
 * [Dr. Achim Basermann](author/achim-basermann)
 * [Dr. Julien Bigot](author/julien-bigot)
 * [Dr. Matthieu Dorier](author/matthieu-dorier)
