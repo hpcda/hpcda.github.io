@@ -3,8 +3,7 @@ widget: featurette
 headless: true
 weight: 20
 design:
-  spacing:
-    padding: ["4em", "0", "4em", "0"]
+  spacing: { padding: ["4em", "0", "4em", "0"] }
 title: HP-C/DA brings together
 feature:
   - icon: network-wired

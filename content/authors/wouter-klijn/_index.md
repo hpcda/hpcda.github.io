@@ -1,9 +1,11 @@
 ---
-authors: [ wouter-klijn ]
-name: Wouter Klijn 
 title: Wouter Klijn
 role: Participant
-user_groups: [ Participant ]
+user_groups: [ Participants ]
+organizations:
+- name: FZJ
+  url: https://www.fz-juelich.de/
+social:
 ---
 
 Wouter Klijn  completed a MSc  in Artificial  Intelligence from the  University of Groningen  in the

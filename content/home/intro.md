@@ -20,7 +20,7 @@ cta_alt:
   label: 'Register'
 cta_note:
   label: |
-    Oganized by [Julien Bigot](author/julien-bigot) & [Bruno Raffin](author/bruno-raffin).
+    Oganized by  [Julien Bigot](author/dr.-julien-bigot) & [Bruno Raffin](author/dr.-bruno-raffin).
 ---
 Workshop on the In Situ Co-Execution of <br> **H**igh-**P**erformance **C**omputing & **D**ata **A**nalysis
 

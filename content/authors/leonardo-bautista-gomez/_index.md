@@ -1,9 +1,7 @@
 ---
-authors: [ leonardo-bautista-gomez ]
-name: Leonardo Bautista Gomez
-title: Leonardo Bautista Gomez
+title: Dr. Leonardo Bautista Gomez
 role: Participant
-user_groups: [ Participant ]
+user_groups: [ Participants ]
 organizations:
 - name: Barcelona Supercomputing Center
   url: https://www.bsc.es/

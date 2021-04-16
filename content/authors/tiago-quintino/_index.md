@@ -1,9 +1,11 @@
 ---
-authors: [ tiago-quintino ]
-name: Tiago Quintino 
-title: Tiago Quintino
+title: Dr. Tiago Quintino
 role: Participant
-user_groups: [ Participant ]
+user_groups: [ Participants ]
+organizations:
+- name: ECMWF
+  url: https://www.ecmwf.int/
+social:
 ---
 
 Dr Tiago Quintino is a Senior Analyst and Team Leader for Development of Production Services at ECMWF.

@@ -1,9 +1,11 @@
 ---
-authors: [ matthieu-dorier ]
-name: Matthieu Dorier 
-title: Matthieu Dorier
+title: Dr. Matthieu Dorier
 role: Participant
-user_groups: [ Participant ]
+user_groups: [ Participants ]
+organizations:
+- name: ANL
+  url: https://www.anl.gov/
+social:
 ---
 
 Matthieu Dorier graduated with a PhD from Ecole Normale Supérieure de Rennes, France, In 2014, and followed with a two-year postdoc at Argonne National Laboratory.

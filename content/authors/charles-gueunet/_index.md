@@ -1,9 +1,7 @@
 ---
-authors: [ charles-gueunet ]
-name: Charles Gueunet 
-title: Charles Gueunet
+title: Dr. Charles Gueunet
 role: Participant
-user_groups: [ Participant ]
+user_groups: [ Participants ]
 organizations:
 - name: Kitware
   url: https://www.kitware.eu/

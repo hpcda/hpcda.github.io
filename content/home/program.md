@@ -3,6 +3,8 @@ widget: experience
 headless: true
 weight: 50
 title: Program overview
+design:
+  spacing: { padding: ["4em", "0", "2em", "0"] }
 date_format: '3:04 PM'
 experience:
   - title: 'Workshop introduction'

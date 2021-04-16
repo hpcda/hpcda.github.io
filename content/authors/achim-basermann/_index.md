@@ -1,9 +1,11 @@
 ---
-authors: [ achim-basermann ]
-name: Achim Basermann 
-title: Achim Basermann
+title: Dr. Achim Basermann
 role: Participant
-user_groups: [ Participant ]
+user_groups: [ Participants ]
+organizations:
+- name: DLR
+  url: https://www.dlr.de/
+social:
 ---
 
 Dr Achim Basermann is head of the department "High-Performance Computing" at German Aerospace

@@ -3,6 +3,7 @@ widget: blank
 weight: 30
 headless: true
 design:
+  spacing: { padding: ["2em", "0", "2em", "0"] }
   columns: '1'
 ---
 
