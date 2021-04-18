@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+PRODID:HPCDA
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19760328T000000
+RDATE:19760328T000000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19790930T030000
+RRULE:FREQ=YEARLY;UNTIL=19961027T030000;BYDAY=-1SU;BYMONTH=9
+END:STANDARD
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19971026T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19760926T010000
+RDATE:19760926T010000
+RDATE:19770925T030000
+RDATE:19781001T030000
+RDATE:19950924T030000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19770403T020000
+RDATE:19770403T020000
+RDATE:19780402T020000
+RDATE:19790401T020000
+RDATE:19800406T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210418T203833Z
+CREATED:20210418T203642Z
+UID:62cd4121-7f6f-443b-b928-b1fd344c2cc8
+LAST-MODIFIED:20210418T203833Z
+DESCRIPTION:Workshop introduction\n2:00 PM – 2:05 PM Julien Bigot & 
+ Bruno Raffin\n\n💻 First Session 💻\n2:05 PM – 3:45 PM Chair: Bruno 
+ Raffin\n   * “Resilience and scalability of deep learning in 
+ supercomputers” by Leonardo Bautista Gomez.\n   * “Multi-scale brain 
+ simulation in the Human Brain Project: The EBRAINS in-transit simulation 
+ and analysis infrastructure” by Wouter Klijn.\n   * “Catalyst\, 
+ SENSEI and ALPINE: development costs” by Charles Gueunet.\n   * 
+ “Advancing Object storage architectures for Extreme scale” by Sai 
+ Narasimhamurthy.\n   * “VESTEC – Interactive Supercomputing for 
+ Urgent Decision Making” by Achim Basermann.\n\n💻 Second Session 
+ 💻\n3:55 PM – 5:15 PM Chair: Julien Bigot\n   * “HPC storage and 
+ processing convergence using Mochi data services” by Matthieu Dorier.\n 
+   * “Preliminary Experiments in Coupling in situ Dask analytics with 
+ MPI Simulations” by Amal Gueroudji.\n   * “On the Convergence of 
+ HPC\, Cloud and Data Analytics for Exascale Weather Forecasting - ECMWF 
+ Present and Future” by Tiago Quintino.\n   * “Maestro: Towards a 
+ Data- and Memory-aware Middleware” by Dirk Pleiter.\n\nPlenary 
+ discussion\n5:15 PM – 6:00 PM Moderated by Julien Bigot & Bruno 
+ Raffin\n
+SUMMARY:HP-C/DA 2021
+DTSTART;TZID=Europe/Paris:20210602T140000
+DTEND;TZID=Europe/Paris:20210602T180000
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

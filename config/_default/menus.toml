@@ -12,3 +12,8 @@
   name = "Program overview"
   url = "#program"
   weight = 20
+
+[[main]]
+  name = "Full program"
+  url = "#full_program"
+  weight = 30

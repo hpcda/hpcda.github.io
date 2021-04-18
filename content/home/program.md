@@ -10,7 +10,7 @@ experience:
   - title: 'Workshop introduction'
     company: ''
     company_url: ''
-    location: 'by Julien Bigot & Bruno Raffin'
+    location: 'Julien Bigot & Bruno Raffin'
     date_start: '2021-06-06T14:00:00'
     date_end: '2021-06-06T14:05:00'
     description: 
@@ -21,11 +21,11 @@ experience:
     date_start: '2021-06-05T14:05:00'
     date_end: '2021-06-05T15:45:00'
     description: |
-      * 2:05PM: Talk TBA by TBA.
-      * 2:25PM: Talk TBA by TBA.
-      * 2:45PM: Talk TBA by TBA.
-      * 3:05PM: Talk TBA by TBA.
-      * 3:25PM: Talk TBA by TBA.
+      * ["Resilience and scalability of deep learning in supercomputers"](#resilience-and-scalability-of-deep-learning-in-supercomputers) by [Leonardo Bautista Gomez](/author/dr.-leonardo-bautista-gomez).
+      * ["Multi-scale brain simulation in the Human Brain Project: The EBRAINS in-transit simulation and analysis infrastructure"](#multi-scale-brain-simulation-in-the-human-brain-project-the-ebrains-in-transit-simulation-and-analysis-infrastructure) by [Wouter Klijn](/author/wouter-klijn).
+      * ["Catalyst, SENSEI and ALPINE: development costs"](#catalyst-sensei-and-alpine-development-costs) by [Charles Gueunet](/author/dr.-charles-gueunet).
+      * ["Advancing Object storage architectures for Extreme scale"](#advancing-object-storage-architectures-for-extreme-scale) by [Sai Narasimhamurthy](/author/dr.-sai-narasimhamurthy).
+      * ["VESTEC – Interactive Supercomputing for Urgent Decision Making"](#vestec--interactive-supercomputing-for-urgent-decision-making) by [Achim Basermann](/author/dr.-achim-basermann).
   - title: ':coffee: Coffee break :coffee:'
     company: ''
     company_url: ''
@@ -40,10 +40,10 @@ experience:
     date_start: '2021-06-03T15:55:00'
     date_end: '2021-06-03T17:15:00'
     description:  |
-      * 3:55PM: Talk TBA by TBA.
-      * 4:15PM: Talk TBA by TBA.
-      * 4:35PM: Talk TBA by TBA.
-      * 4:55PM: Talk TBA by TBA.
+      * ["HPC storage and processing convergence using Mochi data services"](#hpc-storage-and-processing-convergence-using-mochi-data-services) by [Matthieu Dorier](/author/dr.-matthieu-dorier/).
+      * ["Preliminary Experiments in Coupling in situ Dask analytics with MPI Simulations"](#preliminary-experiments-in-coupling-in-situ-dask-analytics-with-mpi-simulations) by [Amal Gueroudji](/author/amal-gueroudji).
+      * ["On the Convergence of HPC, Cloud and Data Analytics for Exascale Weather Forecasting - ECMWF Present and Future"](#on-the-convergence-of-hpc-cloud-and-data-analytics-for-exascale-weather-forecasting---ecmwf-present-and-future) by [Tiago Quintino](/author/dr.-tiago-quintino).
+      * ["Maestro: Towards a Data- and Memory-aware Middleware"](#maestro-towards-a-data--and-memory-aware-middleware) by [Dirk Pleiter](/author/prof.-dr.-dirk-pleiter).
   - title: ':raising_hand: Plenary discussion :raising_hand:' 
     company: ''
     company_url: ''
@@ -52,3 +52,7 @@ experience:
     date_end: '2021-06-02T18:00:00'
     description: 
 ---
+
+[{{< icon name="calendar-plus" pack="fas" >}} Add to your calendar](/hpcda.ics)
+
+
