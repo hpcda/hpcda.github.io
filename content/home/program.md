@@ -50,9 +50,10 @@ experience:
     location: 'Moderated by Julien Bigot & Bruno Raffin'
     date_start: '2021-06-02T17:15:00'
     date_end: '2021-06-02T18:00:00'
-    description: 
+    description: |
+      With [Achim Basermann](/author/dr.-achim-basermann), [Alejandro Ribes](/author/dr.-alejandro-ribes), [Amal Gueroudji](/author/amal-gueroudji), [Bruno Raffin](/author/dr.-bruno-raffin), [Charles Gueunet](/author/dr.-charles-gueunet), [Dirk Pleiter](/author/prof.-dr.-dirk-pleiter), [Julien Bigot](/author/dr.-julien-bigot), [Leonardo Bautista Gomez](/author/dr.-leonardo-bautista-gomez), [Matthieu Dorier](/author/dr.-matthieu-dorier), [Sai Narasimhamurthy](/author/dr.-sai-narasimhamurthy), [Tiago Quintino](/author/dr.-tiago-quintino), [Virginie Grandgirard](/author/dr.-virginie-grandgirard) & [Wouter Klijn](/author/wouter-klijn)
 ---
 
-[{{< icon name="calendar-plus" pack="fas" >}} Add to your calendar](/hpcda.ics)
+{{< cta cta_text="<i class='fas fa-calendar-plus  pr-1 fa-fw'></i>Add to calendar" cta_link="/hpcda.ics" cta_new_tab="false" >}}
 
 
