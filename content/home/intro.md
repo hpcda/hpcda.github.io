@@ -24,5 +24,5 @@ cta_note:
 ---
 Workshop on the In Situ Co-Execution of <br> **H**igh-**P**erformance **C**omputing & **D**ata **A**nalysis
 
-2 June 2021, 2PM <br>
+**Friday, July 2, 2021, 2PM** <br>
 In conjunction with  [ISC High Performance 2021](https://www.isc-hpc.com/).
