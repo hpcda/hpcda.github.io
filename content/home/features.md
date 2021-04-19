@@ -8,7 +8,7 @@ title: HP-C/DA brings together
 feature:
   - icon: network-wired
     icon_pack: fas
-    name: computer-scientists
+    name: computer scientists
     description: designing the infrastructure to support HP-C/DA coupling
   - icon: laptop-code
     icon_pack: fas
