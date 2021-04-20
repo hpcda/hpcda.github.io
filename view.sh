@@ -3,7 +3,7 @@
 cd "$(dirname "$0")"
 
 function finish {
-  rm -r resources
+  [ -d resources ] && rm -r resources
 }
 trap finish EXIT QUIT ABRT KILL SEGV TERM STOP
 finish
