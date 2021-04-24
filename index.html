@@ -1,0 +1,2045 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="High-performance computing &amp; data analytics." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://hpcda.github.io/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+      
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.7e30e35693ce5241bf21fbf454066bdd.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="HP-C/DA" />
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu7f115b938479d6d881a9a73f37e34057_11902_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu7f115b938479d6d881a9a73f37e34057_11902_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://hpcda.github.io/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="HP-C/DA" />
+  <meta property="og:url" content="https://hpcda.github.io/" />
+  <meta property="og:title" content="HP-C/DA" />
+  <meta property="og:description" content="High-performance computing &amp; data analytics." /><meta property="og:image" content="https://hpcda.github.io/media/logo_hu318d2e30a658873bec09eede3fa138ea_19039_300x300_fit_lanczos_2.png" />
+    <meta property="twitter:image" content="https://hpcda.github.io/media/logo_hu318d2e30a658873bec09eede3fa138ea_19039_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://hpcda.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://hpcda.github.io/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Project",
+  "@id": "https://hpcda.github.io/",
+  "name": "HP-C/DA",
+  "logo": "https://hpcda.github.io/media/logo_hu318d2e30a658873bec09eede3fa138ea_19039_192x192_fit_lanczos_2.png",
+  
+  
+  
+  
+  "url": "https://hpcda.github.io/"
+}
+</script>
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>HP-C/DA</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.226a9011996d125bf3fe4a5f22353a49.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu318d2e30a658873bec09eede3fa138ea_19039_0x70_resize_lanczos_2.png" alt="HP-C/DA"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu318d2e30a658873bec09eede3fa138ea_19039_0x70_resize_lanczos_2.png" alt="HP-C/DA"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#participants" data-target="#participants"><span>Participants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#program" data-target="#program"><span>Program overview</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#full_program" data-target="#full_program"><span>Full program</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+
+      
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="intro" class="home-section wg-hero dark "  >
+   <div class="home-section-bg " style="background-image: linear-gradient(#123, #456);"></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-md-6 text-center text-md-left">
+
+
+    
+      <h1 class="hero-title">HP-C/DA 2021</h1>
+    
+
+    
+      <div class="hero-lead"><p>Workshop on the In Situ Co-Execution of <br> <strong>H</strong>igh-<strong>P</strong>erformance <strong>C</strong>omputing &amp; <strong>D</strong>ata <strong>A</strong>nalysis</p>
+<p><strong>Friday, July 2, 2021, 2PM CEST</strong> <br>
+A workshop of <a href="https://www.isc-hpc.com/" target="_blank" rel="noopener">ISC High Performance 2021</a>.</p>
+</div>
+    
+
+    
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+    <p class="cta-btns">
+      <a href="/#program"  class="btn btn-light btn-lg mb-3 mb-md-1"><i class="fas fa-calendar pr-1" aria-hidden="true"></i>Program</a>
+
+      
+      
+        
+        
+        
+        
+          
+        
+      <a href="https://www.isc-hpc.com/registration-2021.html" target="_blank" rel="noopener" class="hero-cta-alt btn-lg pl-md-4">Register <i class="fas fa-angle-right"></i></a>
+      
+    </p>
+    
+
+    
+    
+    <p class="hero-note text-muted mb-3 mb-md-1">
+      Oganized by  <a href="author/dr.-julien-bigot">Julien Bigot</a> &amp; <a href="author/dr.-bruno-raffin">Bruno Raffin</a>.
+    </p>
+    
+
+  
+  
+  </div>
+  <div class="col-12 mx-auto col-md-6  hero-media">
+      
+      
+      
+      
+
+      
+        
+        
+          
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+      
+
+      <img src="/media/datacenter_hu45845c9ac5179ffe7de4c16abbcb72b3_328659_400x0_resize_q75_lanczos.jpg" srcset="/media/datacenter_hu45845c9ac5179ffe7de4c16abbcb72b3_328659_1200x0_resize_q75_lanczos.jpg 1200w,/media/datacenter_hu45845c9ac5179ffe7de4c16abbcb72b3_328659_800x0_resize_q75_lanczos.jpg 800w,/media/datacenter_hu45845c9ac5179ffe7de4c16abbcb72b3_328659_400x0_resize_q75_lanczos.jpg 400w" width="1536" height="894" alt="HP-C/DA 2021">
+    
+  </div>
+</div>
+
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="features" class="home-section wg-featurette  " style="padding: 4em 0 4em 0;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+<div class="row featurette">
+  
+  <div class="col-md-12 section-heading">
+    <h1>HP-C/DA brings together</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-network-wired"></i></div>
+    
+    <div class="section-subheading">computer scientists</div>
+    <p>designing the infrastructure to support HP-C/DA coupling</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-laptop-code"></i></div>
+    
+    <div class="section-subheading">developers</div>
+    <p>providing the tools for HP-C/DA on supercomputers</p>
+  </div>
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-4">
+    
+    <div class="featurette-icon"><i class="fas fa-vials"></i></div>
+    
+    <div class="section-subheading">application scientists</div>
+    <p>using novel and innovative coupled HP-C/DA applications</p>
+  </div>
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="description" class="home-section wg-blank  " style="padding: 2em 0 2em 0;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Latest advances and challenges for the co-execution of HPC &amp; HPDA workloads on supercomputers</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <p>Exascale computing offers the promise of supporting disruptive numerical experiments needed to address the pressing scientific, industrial and societal challenges of the 21st century, such as clean energy, health and climate change.
+ExaFlop/s supercomputers will provide the compute capabilities to support simulations of yet unseen precision, generating an unprecedented quantity and quality of data.
+Only the latest advances in automated data analytics based on machine-learning or statistical analysis will make it possible to get the most knowledge out of the data generated at this scale.</p>
+<p>To reach and go beyond Exascale, it is critical to consider the numerical experiment as a whole, encompassing both the simulation (high-performance computing, HPC) and data-analytics (high-performance data-analytics, HPDA) aspects.
+Optimized simulation codes, at the core of the numerical experiments, need to be augmented  with  advanced data analytics in tight coupling patterns so as to overcome the widening performance gap between compute and I/O, and leverage new  deep memory hierarchies.
+Once this technical barrier overcome, innovative numerical  patterns become accessible where the outcome of analytics is used to steer the simulation.
+These new patterns have the potential to greatly increase the scientific return of investment for numerical experiments at all scales from lab-scale clusters to the largest supercomputers.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class="big-icon" >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" >
+        <img alt="EoCoE-II" srcset="
+               /media/eocoe_hu555646a74ce30b62de286d6585795c6e_108782_de31365f405c08cf1578203734d03305.png 400w,
+               /media/eocoe_hu555646a74ce30b62de286d6585795c6e_108782_3fcb8aa158078354c6121815c00c044b.png 760w,
+               /media/eocoe_hu555646a74ce30b62de286d6585795c6e_108782_1200x1200_fit_lanczos_2.png 1200w"
+               src="/media/eocoe_hu555646a74ce30b62de286d6585795c6e_108782_de31365f405c08cf1578203734d03305.png"
+               width="128px"
+               height="93.4px"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+HP-C/DA is made possible with the support of the <a href="https://www.eocoe.eu" target="_blank" rel="noopener">EoCoE-II European centre of excellence for HPC applications</a>.</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="participants" class="home-section wg-people  " style="padding: 2em 0 2em 0;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+
+  
+
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Organizers</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-bruno-raffin/"><img class="avatar avatar-circle" src="/author/dr.-bruno-raffin/avatar_hud28baa73055c1b114bb3256dd5a0a03d_13698_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-bruno-raffin/">Dr. Bruno Raffin</a></h2>
+      <h3>Inria</h3><h3>Datamove</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-julien-bigot/"><img class="avatar avatar-circle" src="/author/dr.-julien-bigot/avatar_hu6a6b25a027ff96c54695fa07f3653350_103809_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-julien-bigot/">Dr. Julien Bigot</a></h2>
+      <h3>CEA</h3><h3>Maison de la Simulation</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Participants</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/amal-gueroudji/"><img class="avatar avatar-circle" src="/author/amal-gueroudji/avatar_huae31d966eb28e0862cc615f1cec9e059_327190_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/amal-gueroudji/">Amal Gueroudji</a></h2>
+      <h3>CEA</h3><h3>Maison de la Simulation</h3><h3>DataMove</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-achim-basermann/"><img class="avatar avatar-circle" src="/author/dr.-achim-basermann/avatar_hu61018936287fa39223c19b148ab2f01e_4348_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-achim-basermann/">Dr. Achim Basermann</a></h2>
+      <h3>DLR</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-alejandro-ribes/"><img class="avatar avatar-circle" src="/author/dr.-alejandro-ribes/avatar_hu61018936287fa39223c19b148ab2f01e_4348_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-alejandro-ribes/">Dr. Alejandro Ribes</a></h2>
+      <h3>EDF</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-charles-gueunet/"><img class="avatar avatar-circle" src="/author/dr.-charles-gueunet/avatar_hu61018936287fa39223c19b148ab2f01e_4348_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-charles-gueunet/">Dr. Charles Gueunet</a></h2>
+      <h3>Kitware</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-leonardo-bautista-gomez/"><img class="avatar avatar-circle" src="/author/dr.-leonardo-bautista-gomez/avatar_hucd8c59b9c8dea55e86b28d9465bace2d_1161036_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-leonardo-bautista-gomez/">Dr. Leonardo Bautista Gomez</a></h2>
+      <h3>Barcelona Supercomputing Center</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-matthieu-dorier/"><img class="avatar avatar-circle" src="/author/dr.-matthieu-dorier/avatar_hu61018936287fa39223c19b148ab2f01e_4348_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-matthieu-dorier/">Dr. Matthieu Dorier</a></h2>
+      <h3>ANL</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-sai-narasimhamurthy/"><img class="avatar avatar-circle" src="/author/dr.-sai-narasimhamurthy/avatar_hu9f77df5e6ba66b967c5c6eb04afef475_12189_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-sai-narasimhamurthy/">Dr. Sai Narasimhamurthy</a></h2>
+      <h3>Seagate Systems</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-tiago-quintino/"><img class="avatar avatar-circle" src="/author/dr.-tiago-quintino/avatar_hu61018936287fa39223c19b148ab2f01e_4348_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-tiago-quintino/">Dr. Tiago Quintino</a></h2>
+      <h3>ECMWF</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/dr.-virginie-grandgirard/"><img class="avatar avatar-circle" src="/author/dr.-virginie-grandgirard/avatar_huaf7849c4673cd75485d00bf85dbdbffb_21184_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/dr.-virginie-grandgirard/">Dr. Virginie Grandgirard</a></h2>
+      <h3>CEA</h3><h3>IRFM</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/prof.-dr.-dirk-pleiter/"><img class="avatar avatar-circle" src="/author/prof.-dr.-dirk-pleiter/avatar_hue6acdb665c619d5171919c42f45c1510_17243_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/prof.-dr.-dirk-pleiter/">Prof. Dr. Dirk Pleiter</a></h2>
+      <h3>KTH</h3><h3>FZJ</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/wouter-klijn/"><img class="avatar avatar-circle" src="/author/wouter-klijn/avatar_hu61018936287fa39223c19b148ab2f01e_4348_270x270_fill_lanczos_center_2.png" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/wouter-klijn/">Wouter Klijn</a></h2>
+      <h3>FZJ</h3>
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="program" class="home-section wg-experience  " style="padding: 4em 0 2em 0;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Program overview<br><br>Friday, July 2, 2021</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  <ul class="cta-group">
+  
+  <li>
+    <a href="/hpcda.ics"  class="btn btn-primary px-3 py-3"><i class='fas fa-calendar-plus  pr-1 fa-fw'></i>Add to calendar</a>
+  </li>
+  
+  
+</ul>
+
+
+
+  
+  
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">Workshop introduction</div>
+          <div class="section-subheading card-title exp-company text-muted my-0"></div>
+          <div class="text-muted exp-meta">
+            2:00 PM –
+            
+              2:05 PM
+            
+            
+              <span class="middot-divider"></span>
+              <span>Julien Bigot &amp; Bruno Raffin</span>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">💻 First Session 💻</div>
+          <div class="section-subheading card-title exp-company text-muted my-0"></div>
+          <div class="text-muted exp-meta">
+            2:05 PM –
+            
+              3:45 PM
+            
+            
+              <span class="middot-divider"></span>
+              <span>Chair: Bruno Raffin</span>
+            
+          </div>
+          <div class="card-text"><ul>
+<li><a href="#resilience-and-scalability-of-deep-learning-in-supercomputers">&ldquo;Resilience and scalability of deep learning in supercomputers&rdquo;</a> by <a href="/author/dr.-leonardo-bautista-gomez">Leonardo Bautista Gomez</a>.</li>
+<li><a href="#multi-scale-brain-simulation-in-the-human-brain-project-the-ebrains-in-transit-simulation-and-analysis-infrastructure">&ldquo;Multi-scale brain simulation in the Human Brain Project: The EBRAINS in-transit simulation and analysis infrastructure&rdquo;</a> by <a href="/author/wouter-klijn">Wouter Klijn</a>.</li>
+<li><a href="#catalyst-sensei-and-alpine-development-costs">&ldquo;Catalyst, SENSEI and ALPINE: development costs&rdquo;</a> by <a href="/author/dr.-charles-gueunet">Charles Gueunet</a>.</li>
+<li><a href="#advancing-object-storage-architectures-for-extreme-scale">&ldquo;Advancing Object storage architectures for Extreme scale&rdquo;</a> by <a href="/author/dr.-sai-narasimhamurthy">Sai Narasimhamurthy</a>.</li>
+<li><a href="#vestec--interactive-supercomputing-for-urgent-decision-making">&ldquo;VESTEC – Interactive Supercomputing for Urgent Decision Making&rdquo;</a> by <a href="/author/dr.-achim-basermann">Achim Basermann</a>.</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">☕ Coffee break ☕</div>
+          <div class="section-subheading card-title exp-company text-muted my-0"></div>
+          <div class="text-muted exp-meta">
+            3:45 PM –
+            
+              3:55 PM
+            
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">💻 Second Session 💻</div>
+          <div class="section-subheading card-title exp-company text-muted my-0"></div>
+          <div class="text-muted exp-meta">
+            3:55 PM –
+            
+              5:15 PM
+            
+            
+              <span class="middot-divider"></span>
+              <span>Chair: Julien Bigot</span>
+            
+          </div>
+          <div class="card-text"><ul>
+<li><a href="#hpc-storage-and-processing-convergence-using-mochi-data-services">&ldquo;HPC storage and processing convergence using Mochi data services&rdquo;</a> by <a href="/author/dr.-matthieu-dorier/">Matthieu Dorier</a>.</li>
+<li><a href="#preliminary-experiments-in-coupling-in-situ-dask-analytics-with-mpi-simulations">&ldquo;Preliminary Experiments in Coupling in situ Dask analytics with MPI Simulations&rdquo;</a> by <a href="/author/amal-gueroudji">Amal Gueroudji</a>.</li>
+<li><a href="#on-the-convergence-of-hpc-cloud-and-data-analytics-for-exascale-weather-forecasting---ecmwf-present-and-future">&ldquo;On the Convergence of HPC, Cloud and Data Analytics for Exascale Weather Forecasting - ECMWF Present and Future&rdquo;</a> by <a href="/author/dr.-tiago-quintino">Tiago Quintino</a>.</li>
+<li><a href="#maestro-towards-a-data--and-memory-aware-middleware">&ldquo;Maestro: Towards a Data- and Memory-aware Middleware&rdquo;</a> by <a href="/author/prof.-dr.-dirk-pleiter">Dirk Pleiter</a>.</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="section-subheading card-title exp-title text-muted mt-0 mb-1">🙋🏾‍♀️ Plenary discussion 🙋🏻‍♂️</div>
+          <div class="section-subheading card-title exp-company text-muted my-0"></div>
+          <div class="text-muted exp-meta">
+            5:15 PM –
+            
+              6:00 PM
+            
+            
+              <span class="middot-divider"></span>
+              <span>Moderated by Julien Bigot &amp; Bruno Raffin</span>
+            
+          </div>
+          <div class="card-text">With <a href="/author/dr.-achim-basermann">Achim Basermann</a>, <a href="/author/dr.-alejandro-ribes">Alejandro Ribes</a>, <a href="/author/amal-gueroudji">Amal Gueroudji</a>, <a href="/author/dr.-bruno-raffin">Bruno Raffin</a>, <a href="/author/dr.-charles-gueunet">Charles Gueunet</a>, <a href="/author/prof.-dr.-dirk-pleiter">Dirk Pleiter</a>, <a href="/author/dr.-julien-bigot">Julien Bigot</a>, <a href="/author/dr.-leonardo-bautista-gomez">Leonardo Bautista Gomez</a>, <a href="/author/dr.-matthieu-dorier">Matthieu Dorier</a>, <a href="/author/dr.-sai-narasimhamurthy">Sai Narasimhamurthy</a>, <a href="/author/dr.-tiago-quintino">Tiago Quintino</a>, <a href="/author/dr.-virginie-grandgirard">Virginie Grandgirard</a> &amp; <a href="/author/wouter-klijn">Wouter Klijn</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="full_program" class="home-section wg-blank  " style="padding: 3em 0 3em 0;" >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  justify-content-center">
+      
+        
+          <div class="section-heading col-12 mb-3 text-center">
+            <h1 class="mb-0">Full program</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12">
+    <h2 id="workshop-introduction">Workshop introduction</h2>
+<p>5:15PM by <a href="/author/dr.-julien-bigot/">Dr. Julien Bigot</a> &amp; <a href="/author/dr.-bruno-raffin/">Dr. Bruno Raffin</a>.</p>
+<h2 id="first-session">First session</h2>
+<h3 id="resilience-and-scalability-of-deep-learning-in-supercomputers">Resilience and scalability of deep learning in supercomputers</h3>
+<p>2:05PM by <a href="/author/dr.-leonardo-bautista-gomez/">Dr. Leonardo Bautista Gomez</a></p>
+<p>In recent years, Deep Neural Networks (DNNs) have achieved outstanding results in a wide range of applications, including language processing, speech, and visual recognition.
+In the quest to increase solution accuracy, there are trends of increasing the size of training datasets as well as introducing larger and deeper DNN models.
+In addition, applying Deep Learning in new domains, such as health care and scientific simulations, introduce bigger data samples and more complex DNN models.
+Those trends make the DNN training computationally expensive
+for a single node.
+Therefore, large-scale parallel training on High-Performance Computing (HPC) systems or clusters of GPUs is becoming increasingly common to achieve faster training time for larger models and datasets.
+In this talk, we will present recent developments in both, DNN&rsquo;s scalability as well as resilience while training at a large scale in HPC systems.</p>
+<h3 id="multi-scale-brain-simulation-in-the-human-brain-project-the-ebrains-in-transit-simulation-and-analysis-infrastructure">Multi-scale brain simulation in the Human Brain Project: The EBRAINS in-transit simulation and analysis infrastructure</h3>
+<p>2:25PM by <a href="/author/wouter-klijn/">Wouter Klijn</a></p>
+<p>The Human Brain Project (HBP), the ICT-based Flagship project of the EU, is building research infrastructure for understanding the brain and finding new treatments for brain disease. Important capabilities are brain simulations of large- and multiscale experimental and clinical data sets with integrated analysis toolkits. The HBP offers simulation engines at different scales of abstraction. These simulators are now been integrated to enable multi-scale model simulation. These models will be an important tool for answering system level questions of (whole) brain ailments
+How to create a science end-user friendly production system from multiple individual applications, each simulating specific scales, is an open question. One challenge is that the probability of a fault condition grows as a multiplicative function of the number of applications in a workflow and their failure probabilities. This talk will introduce the infrastructure being build by HBP for the EBRAIN research infrastructure to address this and other challenges.</p>
+<h3 id="catalyst-sensei-and-alpine-development-costs">Catalyst, SENSEI and ALPINE: development costs</h3>
+<p>2:45PM by <a href="/author/dr.-charles-gueunet/">Dr. Charles Gueunet</a></p>
+<p>In this era closer to exascale than ever, supercomputers are able to generate data faster than they can write to disk.
+In this context, the results of High Performance Computing (<strong>HPC</strong>) approaches used for simulation need to be analysed
+without saving the whole data to disk.
+<em>In situ</em> analysis is the process to visualize, explore, and analyse data living on the memory without transferring it to
+the disk. This brings data analysis algorithms to run directly on the supercomputers running the simulations, allowing
+them to take advantage of their large computational power through High Performance Data Analysis (<strong>HPDA</strong>).
+Our presentation will start with a general introduction to <em>in situ</em> analysis along with a brief presentation of three existing
+solutions related to the VTK/Paraview suite: Catalyst, SENSEI and ALPINE. We will then present a comparison of these
+solutions in terms of development costs, by looking at the amount of code that needs to be added to use each of these librarie.</p>
+<h3 id="advancing-object-storage-architectures-for-extreme-scale">Advancing Object storage architectures for Extreme scale</h3>
+<p>3:05PM by <a href="/author/dr.-sai-narasimhamurthy/">Dr. Sai Narasimhamurthy</a></p>
+<p>The landscape and architecture assumptions for extreme scale computing is changing with the increase in heterogeneity (GPUs, FPGA, etc)  in the computing subsystem along side multi/many core processing. There is also the arrival of a new extremely fast and high capacity Non-volatile storage class memories within the storage device hierarchy along side traditional disk drives, archives and flash technology. The workload assumptions for extreme scale computing is also changing with AI/Deep learning components as part of the highly data centric processing pipeline that will become common place. All this means that the traditional assumptions of the storage system stack is changing. We will no longer be able to rely on parallel file systems, POSIX interfaces etc as they had been designed for a different generation with different architecture assumptions in  mind. In this talk, we will discuss an object storage based storage system  architecture that is designed to address the new requirements.</p>
+<h3 id="vestec--interactive-supercomputing-for-urgent-decision-making">VESTEC – Interactive Supercomputing for Urgent Decision Making</h3>
+<p>3:25PM by <a href="/author/dr.-achim-basermann/">Dr. Achim Basermann</a></p>
+<p>The use of extreme computing in real-time applications with high velocity data and live analytics is within reach. The availability of fast growing social and sensor networks raise new possibilities in monitoring, assessing and predicting environmental, social and economic incidents as they happen. Add in grand challenges in data fusion, analysis and visualization, and extreme computing hardware has an increasingly essential role in enabling efficient processing workflows for huge heterogeneous data streams. VESTEC is creating the software solutions needed to realize this vision for urgent decision making in various fields with high impact for the European community. VESTEC is building a flexible toolchain to combine multiple data sources, efficiently extract essential features, enable flexible scheduling and interactive supercomputing, and realize 3D visualization environments for interactive explorations by stakeholders and decision makers.</p>
+<h1 id="second-session">Second session</h1>
+<h3 id="hpc-storage-and-processing-convergence-using-mochi-data-services">HPC storage and processing convergence using Mochi data services</h3>
+<p>3:55PM by <a href="/author/dr.-matthieu-dorier/">Dr. Matthieu Dorier</a></p>
+<p>The limitations of parallel file systems in terms of performance and flexibility have led many scientists to turn towards in situ analysis techniques, in which as much of the data processing as possible is done while the application is running, to reduce I/O pressure and produce early results.
+An alternative to this radical paradigm consists of designing data services that are highly tailored to their target applications.
+These data services can at the same time store and process data, present an interface that is suitable to their end users, and adapt to the platform they run on.
+However, these data services bring an important challenge.
+How can one easily design and implement such a service on a per-application basis?
+In this talk, we will present our work around the Mochi project, a set of composable libraries that can be used to efficiently design HPC data services.
+We will show multiple examples of such services: HEPnOS, which targets high energy physics workflows, and FlameStore, a service design for ensemble training of deep neural networks.</p>
+<h3 id="preliminary-experiments-in-coupling-in-situ-dask-analytics-with-mpi-simulations">Preliminary Experiments in Coupling in situ Dask analytics with MPI Simulations</h3>
+<p>4:15PM by <a href="/author/amal-gueroudji/">Amal Gueroudji</a></p>
+<p>The gap between CPU performance and the IO bandwidth widens increasingly in large scale systems. In some fields, classical post hoc data processing is not possible anymore due to the IO bottleneck. In situ solutions are very efficient for those cases as they allow to bypass the disk accesses, however they are complex to set up. In this paper we propose a new approach to combine the simplicity of post hoc approaches and the performance of in situ by coupling MPI applications with Dask. We have implemented a prototype and we show that it is both very simple to use and offers performance that already outperform post hoc expectations by a factor 2.7 in some cases.</p>
+<h3 id="on-the-convergence-of-hpc-cloud-and-data-analytics-for-exascale-weather-forecasting---ecmwf-present-and-future">On the Convergence of HPC, Cloud and Data Analytics for Exascale Weather Forecasting - ECMWF Present and Future</h3>
+<p>4:35PM by <a href="/author/dr.-tiago-quintino/">Dr. Tiago Quintino</a></p>
+<p>Starting 2014, ECMWF has embarked on a 10 year research programme on HPC Scalability, aiming to achieve Exascale numerical weather prediction systems by 2025.
+The programme is now entering its 2nd phase, where focus is now on improvements to the operational forecasting system that incur deeper restructuring changes.
+ECMWF operational forecast generates massive amounts of I/O in short bursts, accumulating to tens of TiB in hourly windows.
+From this output, millions of user-defined daily products are generated and disseminated to member states and commercial clients all over the world.
+These products are processed from the raw output of the IFS model, within the time critical path and under strict delivery schedule.
+Upcoming rise in resolution and growing popularity will increase both the size and number of these products.</p>
+<p>The adoption of a new object store (FDB version 5) for the time-critical operations has opened the door for more
+comprehensive improvements to the post-processing chain and enabled new access paths to very high-resolution time critical datasets.
+These improvements will bring product generation and data analytics closer to the NWP model and the model output data,
+to build true data-centric processing and analytics workflows.</p>
+<p>These are part of ECMWF plans to achieve Exascale NWP by 2025 and to empower our users and member states with novel and
+increased usage of our weather forecast data. As Exascale NWP datasets are expected to feature between 250 TiB to 1 PiB per forecast cycle,
+the data-centric approach is critical to enable their efficient usage, by minimising data transport and bringing post-processing
+and insight discovery closer to the data source.</p>
+<p>We present the latest ECMWF developments in model I/O, product generation and storage,
+and how we are reworking our operational workflows to adapt to forthcoming new architectures and memory-storage hierarchies,
+as we build bridges from HPC data producer to Cloud based data analytics workflows.</p>
+<h3 id="maestro-towards-a-data--and-memory-aware-middleware">Maestro: Towards a Data- and Memory-aware Middleware</h3>
+<p>4:55PM by <a href="/author/prof.-dr.-dirk-pleiter/">Prof. Dr. Dirk Pleiter</a></p>
+<p>Performance bottlenecks of modern HPC and HPDA systems are usually in the memory and storage systems. Still few abstractions exist that capture data semantics of applications and capabilities of the underlying hardware are often largely unknown to the software stacks. Therefore, reasoning about data movement and memory in software is impossible. With other words: Data- and memory-awareness is lacking. The Maestro project addressing this shortcoming by building a middleware library that allows characterising application data, to reason about how to load and store that data, to assess the cost of moving it and to automatise data movement across diverse memory systems. In this presentation, we will provide an overview of Maestro&rsquo;s concepts and discuss the details of its emerging implementation.</p>
+<h2 id="plenary-discussion">Plenary discussion</h2>
+<p>5:15PM moderated by <a href="/author/dr.-julien-bigot/">Dr. Julien Bigot</a> &amp; <a href="/author/dr.-bruno-raffin/">Dr. Bruno Raffin</a>.</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.fe59252145c820838753aa47d09bee7b.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

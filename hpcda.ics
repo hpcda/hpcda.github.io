@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+PRODID:HPCDA
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19760328T000000
+RDATE:19760328T000000
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19790930T030000
+RRULE:FREQ=YEARLY;UNTIL=19961027T030000;BYDAY=-1SU;BYMONTH=9
+END:STANDARD
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19971026T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19760926T010000
+RDATE:19760926T010000
+RDATE:19770925T030000
+RDATE:19781001T030000
+RDATE:19950924T030000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19770403T020000
+RDATE:19770403T020000
+RDATE:19780402T020000
+RDATE:19790401T020000
+RDATE:19800406T020000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210418T211608Z
+CREATED:20210418T211343Z
+UID:ae2458d5-8bc0-48b3-9971-660de8b6ee59
+SEQUENCE:2
+LAST-MODIFIED:20210418T211608Z
+DESCRIPTION:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http:
+ //www.w3.org/TR/REC-html40/strict.dtd">\n<html><head><meta
+ name="qrichtext" content="1" /><style type="text/css">\np\, li {
+ white-space: pre-wrap\; }\n</style></head><body style=" font-family:'Noto
+ Sans'\; font-size:10pt\; font-weight:400\; font-style:normal\;">\n<p
+ style=" margin-top:0px\; margin-bottom:0px\; margin-left:0px\;
+ margin-right:0px\; -qt-block-indent:0\; text-indent:0px\;">Workshop
+ introduction</p>\n<p style=" margin-top:0px\; margin-bottom:0px\;
+ margin-left:0px\; margin-right:0px\; -qt-block-indent:0\; text-indent:
+ 0px\;">2:00 PM – 2:05 PM Julien Bigot &amp\; Bruno Raffin</p>\n<p
+ style="-qt-paragraph-type:empty\; margin-top:0px\; margin-bottom:0px\;
+ margin-left:0px\; margin-right:0px\; -qt-block-indent:0\; text-indent:
+ 0px\;"><br /></p>\n<p style=" margin-top:0px\; margin-bottom:0px\;
+ margin-left:0px\; margin-right:0px\; -qt-block-indent:0\; text-indent:
+ 0px\;">💻 First Session 💻</p>\n<p style=" margin-top:0px\;
+ margin-bottom:0px\; margin-left:0px\; margin-right:0px\; -qt-block-indent:
+ 0\; text-indent:0px\;">2:05 PM – 3:45 PM Chair: Bruno Raffin</p>\n<ul
+ style="margin-top: 0px\; margin-bottom: 0px\; margin-left: 0px\;
+ margin-right: 0px\; -qt-list-indent: 1\;"><li style=" margin-top:0px\;
+ margin-bottom:0px\; margin-left:0px\; margin-right:0px\; -qt-block-indent:
+ 0\; text-indent:0px\;">“Resilience and scalability of deep learning in
+ supercomputers” by Leonardo Bautista Gomez.</li>\n<li style="
+ margin-top:0px\; margin-bottom:0px\; margin-left:0px\; margin-right:0px\;
+ -qt-block-indent:0\; text-indent:0px\;">“Multi-scale brain simulation
+ in the Human Brain Project: The EBRAINS in-transit simulation and
+ analysis infrastructure” by Wouter Klijn.</li>\n<li style=" margin-top:
+ 0px\; margin-bottom:0px\; margin-left:0px\; margin-right:0px\;
+ -qt-block-indent:0\; text-indent:0px\;">“Catalyst\, SENSEI and ALPINE:
+ development costs” by Charles Gueunet.</li>\n<li style=" margin-top:
+ 0px\; margin-bottom:0px\; margin-left:0px\; margin-right:0px\;
+ -qt-block-indent:0\; text-indent:0px\;">“Advancing Object storage
+ architectures for Extreme scale” by Sai Narasimhamurthy.</li>\n<li
+ style=" margin-top:0px\; margin-bottom:0px\; margin-left:0px\;
+ margin-right:0px\; -qt-block-indent:0\; text-indent:0px\;">“VESTEC –
+ Interactive Supercomputing for Urgent Decision Making” by Achim
+ Basermann.</li></ul>\n<p style="-qt-paragraph-type:empty\; margin-top:
+ 0px\; margin-bottom:0px\; margin-left:0px\; margin-right:0px\;
+ -qt-block-indent:0\; text-indent:0px\;"><br /></p>\n<p style=" margin-top:
+ 0px\; margin-bottom:0px\; margin-left:0px\; margin-right:0px\;
+ -qt-block-indent:0\; text-indent:0px\;">💻 Second Session 💻</p>\n<p
+ style=" margin-top:0px\; margin-bottom:0px\; margin-left:0px\;
+ margin-right:0px\; -qt-block-indent:0\; text-indent:0px\;">3:55 PM – 5:
+ 15 PM Chair: Julien Bigot</p>\n<ul style="margin-top: 0px\; margin-bottom:
+  0px\; margin-left: 0px\; margin-right: 0px\; -qt-list-indent: 1\;"><li
+ style=" margin-top:0px\; margin-bottom:0px\; margin-left:0px\;
+ margin-right:0px\; -qt-block-indent:0\; text-indent:0px\;">“HPC storage
+ and processing convergence using Mochi data services” by Matthieu
+ Dorier.</li>\n<li style=" margin-top:0px\; margin-bottom:0px\;
+ margin-left:0px\; margin-right:0px\; -qt-block-indent:0\; text-indent:
+ 0px\;">“Preliminary Experiments in Coupling in situ Dask analytics with
+ MPI Simulations” by Amal Gueroudji.</li>\n<li style=" margin-top:0px\;
+ margin-bottom:0px\; margin-left:0px\; margin-right:0px\; -qt-block-indent:
+ 0\; text-indent:0px\;">“On the Convergence of HPC\, Cloud and Data
+ Analytics for Exascale Weather Forecasting - ECMWF Present and Future”
+ by Tiago Quintino.</li>\n<li style=" margin-top:0px\; margin-bottom:0px\;
+ margin-left:0px\; margin-right:0px\; -qt-block-indent:0\; text-indent:
+ 0px\;">“Maestro: Towards a Data- and Memory-aware Middleware” by Dirk
+ Pleiter.</li></ul>\n<p style="-qt-paragraph-type:empty\; margin-top:0px\;
+ margin-bottom:0px\; margin-left:0px\; margin-right:0px\; -qt-block-indent:
+ 0\; text-indent:0px\;"><br /></p>\n<p style=" margin-top:0px\;
+ margin-bottom:0px\; margin-left:0px\; margin-right:0px\; -qt-block-indent:
+ 0\; text-indent:0px\;">Plenary discussion</p>\n<p style=" margin-top:0px\;
+  margin-bottom:0px\; margin-left:0px\; margin-right:0px\;
+ -qt-block-indent:0\; text-indent:0px\;">5:15 PM – 6:00 PM Moderated by
+ Julien Bigot &amp\; Bruno Raffin</p>\n<p style="-qt-paragraph-type:empty\;
+  margin-top:0px\; margin-bottom:0px\; margin-left:0px\; margin-right:0px\;
+  -qt-block-indent:0\; text-indent:0px\;"><br /></p></body></html>
+SUMMARY:HP-C/DA 2021
+DTSTART;TZID=Europe/Paris:20210702T140000
+DTEND;TZID=Europe/Paris:20210702T180000
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
