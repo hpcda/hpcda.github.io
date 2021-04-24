@@ -2,26 +2,26 @@ name: site-deploy
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 jobs:
-  build:
+  site-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/checkout@v2
-        with:
-          ref: data
-          path: public
-      - name: Build site
-        run: |
-          rm -rf public/*
-          docker run -i -v "$(pwd):/src" klakegg/hugo:0.81.0-ext-alpine-ci
-      - name: Deploy site
-        run: |
-          cd public
-          git config user.email "github-commit-hook@example.com"
-          git config user.name "Github Commit Hook"
-          git add -A .
-          git commit -a -m "Update to match ${GITHUB_SHA}"
-          git push -f
+    - name: Checkout main
+      uses: actions/checkout@v2
+      with: { fetch-depth: 0 }
+    - name: Checkout gh-pages
+      run: git worktree add -B gh-pages public remotes/origin/gh-pages
+    - name: Build site
+      run: rm -rf public/*; docker run -i -v "$(pwd):/src" klakegg/hugo:0.81.0-ext-alpine-ci
+    - name: Deploy site
+      run: |
+        cd public
+        git config user.email "github-commit-hook@example.com"
+        git config user.name "Github Commit Hook"
+        git add -A .
+        git commit -a -m "Update to match ${GITHUB_SHA}"
+        git push -f
