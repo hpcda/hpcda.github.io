@@ -14,6 +14,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:julien.bigot@cea.fr
+- icon: orcid
+  icon_pack: fab
+  link: https://orcid.org/0000-0002-0015-4304
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=lwrAj8AAAAAJ
