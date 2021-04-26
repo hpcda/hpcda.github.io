@@ -77,7 +77,6 @@ These data services can at the same time store and process data, present an inte
 However, these data services bring an important challenge.
 How can one easily design and implement such a service on a per-application basis?
 In this talk, we will present our work around the Mochi project, a set of composable libraries that can be used to efficiently design HPC data services.
-We will show multiple examples of such services: HEPnOS, which targets high energy physics workflows, and FlameStore, a service design for ensemble training of deep neural networks.
 
 
 ### Preliminary Experiments in Coupling in situ Dask analytics with MPI Simulations
