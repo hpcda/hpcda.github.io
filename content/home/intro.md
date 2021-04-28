@@ -24,5 +24,5 @@ cta_note:
 ---
 Workshop on the In Situ Co-Execution of <br> **H**igh-**P**erformance **C**omputing & **D**ata **A**nalysis
 
-**Friday, July 2, 2021, 2PM CEST** <br>
-A workshop of [ISC High Performance 2021](https://www.isc-hpc.com/).
+**Friday, July 2, 2021, 2 PM** <br>
+HPCDA is a [workshop](https://app.swapcard.com/widget/event/isc-high-performance-2021-digital/planning/UGxhbm5pbmdfNDQ0NzMz) of [ISC High Performance 2021](https://www.isc-hpc.com/).

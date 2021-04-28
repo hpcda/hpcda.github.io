@@ -2,7 +2,12 @@
 widget: experience
 headless: true
 weight: 50
-title: Program overview<br><br>Friday, July 2, 2021
+title: |
+  # Program overview
+  
+  ## Friday, July 2, 2021
+  
+  ## 2 PM CEST to 6 PM CEST
 design:
   spacing: { padding: ["4em", "0", "2em", "0"] }
 date_format: '3:04 PM'
@@ -54,6 +59,4 @@ experience:
       With [Achim Basermann](/author/dr.-achim-basermann), [Alejandro Ribes](/author/dr.-alejandro-ribes), [Amal Gueroudji](/author/amal-gueroudji), [Bruno Raffin](/author/dr.-bruno-raffin), [Charles Gueunet](/author/dr.-charles-gueunet), [Dirk Pleiter](/author/prof.-dr.-dirk-pleiter), [Julien Bigot](/author/dr.-julien-bigot), [Leonardo Bautista Gomez](/author/dr.-leonardo-bautista-gomez), [Matthieu Dorier](/author/dr.-matthieu-dorier), [Sai Narasimhamurthy](/author/dr.-sai-narasimhamurthy), [Tiago Quintino](/author/dr.-tiago-quintino), [Virginie Grandgirard](/author/dr.-virginie-grandgirard) & [Wouter Klijn](/author/wouter-klijn)
 ---
 
-{{< cta cta_text="<i class='fas fa-calendar-plus  pr-1 fa-fw'></i>Add to calendar" cta_link="/hpcda.ics" cta_new_tab="false" >}}
-
-
+{{< cta cta_text="<i class='fas fa-calendar-plus  pr-1 fa-fw'></i>Add to calendar" cta_link="/hpcda.ics" cta_new_tab="false" cta_alt_text="Swapcard event" cta_alt_link="https://app.swapcard.com/event/isc-high-performance-2021-digital/planning/UGxhbm5pbmdfNDQ0NzMz" cta_alt_new_tab="true" >}}

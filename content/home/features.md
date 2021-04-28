@@ -4,7 +4,7 @@ headless: true
 weight: 20
 design:
   spacing: { padding: ["4em", "0", "4em", "0"] }
-title: HP-C/DA brings together
+title: HPCDA brings together
 feature:
   - icon: network-wired
     icon_pack: fas
