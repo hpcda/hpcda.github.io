@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dr. Charles Gueunet | HP-C/DA</title>
+    <title>Dr. Charles Gueunet | HPCDA 2021 ­— Workshop on the In Situ Co-Execution of HPC &amp; HPDA</title>
     <link>https://hpcda.github.io/author/dr.-charles-gueunet/</link>
       <atom:link href="https://hpcda.github.io/author/dr.-charles-gueunet/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr. Charles Gueunet</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Julien Bigot &amp;amp; the HPCDA team</copyright>
     <image>
       <url>https://hpcda.github.io/author/dr.-charles-gueunet/avatar_hu61018936287fa39223c19b148ab2f01e_4348_270x270_fill_lanczos_center_2.png</url>
       <title>Dr. Charles Gueunet</title>

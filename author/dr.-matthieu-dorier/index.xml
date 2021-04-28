@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dr. Matthieu Dorier | HP-C/DA</title>
+    <title>Dr. Matthieu Dorier | HPCDA 2021 ­— Workshop on the In Situ Co-Execution of HPC &amp; HPDA</title>
     <link>https://hpcda.github.io/author/dr.-matthieu-dorier/</link>
       <atom:link href="https://hpcda.github.io/author/dr.-matthieu-dorier/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr. Matthieu Dorier</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Julien Bigot &amp;amp; the HPCDA team</copyright>
     <image>
       <url>https://hpcda.github.io/author/dr.-matthieu-dorier/avatar_hu905eb803274d8fdb32a2655b8dbefaa7_773104_270x270_fill_lanczos_center_2.png</url>
       <title>Dr. Matthieu Dorier</title>
