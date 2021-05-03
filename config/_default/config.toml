@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "HPCDA 2021 ­— Workshop on the In Situ Co-Execution of HPC & HPDA"
+title = "HPCDA 2021 ­— workshop on HPC & HPDA in situ co-execution"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.

@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "HP-C/DA Workshop (HPCDA)"
+description = "HP-C/DA 2021 Workshop (HPCDA) | the workshop on the in situ co-execution of high-performance computing (HPC) and data analysis (HPDA)"
 
 ############################
 ## Site Features
