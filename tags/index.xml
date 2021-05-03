@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | HPCDA 2021 ­— Workshop on the In Situ Co-Execution of HPC &amp; HPDA</title>
+    <title>Tags | HPCDA 2021 ­— workshop on HPC &amp; HPDA in situ co-execution</title>
     <link>https://hpcda.github.io/tags/</link>
       <atom:link href="https://hpcda.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
