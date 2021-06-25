@@ -1,5 +1,5 @@
 ---
-title: Dr. 	Yuuichi Asahi
+title: Dr. Yuuichi Asahi
 role: Participant
 user_groups: [ Participants ]
 organizations:
