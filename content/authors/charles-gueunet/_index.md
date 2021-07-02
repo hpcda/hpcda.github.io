@@ -20,3 +20,5 @@ Data Analysis", and became one of the main contributors of the Topology
 ToolKit (TTK). After defending in February 2019, Charles joined the Scientific
 Visualization team at Kitware. He now works on various projects involving
 parallel programming, discrete geometry and data analysis algorithms.
+
+Additional content: [Simulator.zip](Simulator.zip)
