@@ -55,12 +55,16 @@ solutions in terms of development costs, by looking at the amount of code that n
 
 3:05PM by {{% mention "Sai Narasimhamurthy" %}}
 
+[:computer: Slides](author/sai-narasimhamurthy/HPCDA-sai-narasimhamurthy.pdf)
+
 The landscape and architecture assumptions for extreme scale computing is changing with the increase in heterogeneity (GPUs, FPGA, etc)  in the computing subsystem along side multi/many core processing. There is also the arrival of a new extremely fast and high capacity Non-volatile storage class memories within the storage device hierarchy along side traditional disk drives, archives and flash technology. The workload assumptions for extreme scale computing is also changing with AI/Deep learning components as part of the highly data centric processing pipeline that will become common place. All this means that the traditional assumptions of the storage system stack is changing. We will no longer be able to rely on parallel file systems, POSIX interfaces etc as they had been designed for a different generation with different architecture assumptions in  mind. In this talk, we will discuss an object storage based storage system  architecture that is designed to address the new requirements.
 
 
 ### VESTEC – Interactive Supercomputing for Urgent Decision Making
 
 3:25PM by {{% mention "Achim Basermann" %}}
+
+[:computer: Slides](author/achim-basermann/HPCDA-achim-basermann.pdf)
 
 The use of extreme computing in real-time applications with high velocity data and live analytics is within reach. The availability of fast growing social and sensor networks raise new possibilities in monitoring, assessing and predicting environmental, social and economic incidents as they happen. Add in grand challenges in data fusion, analysis and visualization, and extreme computing hardware has an increasingly essential role in enabling efficient processing workflows for huge heterogeneous data streams. VESTEC is creating the software solutions needed to realize this vision for urgent decision making in various fields with high impact for the European community. VESTEC is building a flexible toolchain to combine multiple data sources, efficiently extract essential features, enable flexible scheduling and interactive supercomputing, and realize 3D visualization environments for interactive explorations by stakeholders and decision makers.
 
@@ -89,6 +93,8 @@ The gap between CPU performance and the IO bandwidth widens increasingly in larg
 ### On the Convergence of HPC, Cloud and Data Analytics for Exascale Weather Forecasting - ECMWF Present and Future
 
 4:35PM by {{% mention "Tiago Quintino" %}}
+
+[:computer: Slides](author/tiago-quintino/HPCDA-tiago-quintino.pdf)
 
 Starting 2014, ECMWF has embarked on a 10 year research programme on HPC Scalability, aiming to achieve Exascale numerical weather prediction systems by 2025.
 The programme is now entering its 2nd phase, where focus is now on improvements to the operational forecasting system that incur deeper restructuring changes.
